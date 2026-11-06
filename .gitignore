@@ -1,0 +1,26 @@
+# dependências
+node_modules/
+
+# build do Next.js
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# testes
+coverage/
+playwright-report/
+test-results/
+
+# variáveis de ambiente (nunca versionar chaves)
+.env
+.env*.local
+
+# logs e sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# deploy
+.vercel
