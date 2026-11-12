@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/*
+ * Identidade visual base.
+ * EXEMPLO: as cores abaixo são provisórias, até a empresa enviar as cores oficiais (prazo: 23/11).
+ */
+@theme {
+  /* Marca: azul, para confiança */
+  --color-marca-50: #eff6ff;
+  --color-marca-100: #dbeafe;
+  --color-marca-200: #bfdbfe;
+  --color-marca-500: #2563eb;
+  --color-marca-600: #1d4ed8;
+  --color-marca-700: #1e40af;
+  --color-marca-900: #172554;
+
+  /* Destaque: laranja, para chamadas e botões principais */
+  --color-destaque-100: #ffedd5;
+  --color-destaque-500: #f97316;
+  --color-destaque-600: #ea580c;
+  --color-destaque-700: #c2410c;
+
+  /* Economia: verde, para valores economizados no simulador */
+  --color-economia-100: #dcfce7;
+  --color-economia-600: #16a34a;
+  --color-economia-700: #15803d;
+
+  /* Neutros */
+  --color-fundo: #ffffff;
+  --color-fundo-suave: #f8fafc;
+  --color-texto: #0f172a;
+  --color-texto-suave: #475569;
+  --color-borda: #e2e8f0;
+
+  /* Erro */
+  --color-erro: #dc2626;
+
+  /* Tipografia (variáveis definidas pelo next/font em layout.tsx) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-titulo: var(--font-montserrat), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-fundo text-texto font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-titulo text-marca-900 font-bold tracking-tight;
+  }
+
+  a {
+    @apply text-marca-600 underline-offset-4 hover:underline;
+  }
+
+  :focus-visible {
+    @apply outline-destaque-500 outline-2 outline-offset-2;
+  }
+}
