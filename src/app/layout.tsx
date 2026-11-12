@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import type { ReactNode } from "react";
+import { siteConfig } from "@/config/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -17,8 +18,21 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Compras de materiais de obra",
-  description: "Site em construção.",
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: `${siteConfig.nome} | ${siteConfig.slogan}`,
+    template: `%s | ${siteConfig.nome}`,
+  },
+  description: siteConfig.descricao,
+  applicationName: siteConfig.nome,
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName: siteConfig.nome,
+    title: siteConfig.nome,
+    description: siteConfig.descricao,
+    url: "/",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
