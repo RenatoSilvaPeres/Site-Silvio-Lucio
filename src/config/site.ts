@@ -57,3 +57,17 @@ export const siteConfig: SiteConfig = {
     instagram: "https://www.instagram.com/exemplo",
   },
 };
+
+export type ItemNavegacao = {
+  rotulo: string;
+  href: string;
+};
+
+/** Links do menu principal, na ordem em que aparecem no cabeçalho. */
+export const navegacao: ItemNavegacao[] = [
+  { rotulo: "Início", href: "/" },
+  { rotulo: "Sobre", href: "/sobre" },
+  { rotulo: "Simulador", href: "/simulador" },
+  { rotulo: "Blog", href: "/blog" },
+  { rotulo: "Contato", href: "/contato" },
+];

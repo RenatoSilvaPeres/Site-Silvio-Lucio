@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import type { ReactNode } from "react";
+import { Header } from "@/components/Header";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
 
@@ -38,7 +39,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR" className={`${inter.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div id="conteudo">{children}</div>
+      </body>
     </html>
   );
 }

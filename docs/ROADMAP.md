@@ -14,7 +14,7 @@ São 41 etapas, não 44, porque 20/11, 25/12 e 01/01 são feriados nacionais.
 | 2   | 09/11 | ESLint, Prettier e scripts                                              | `chore: adiciona lint e formatação`    | [x]   |
 | 3   | 10/11 | Tailwind, cores e tipografia                                            | `style: define identidade visual base` | [x]   |
 | 4   | 11/11 | `site.ts` com dados de exemplo e metadata base                          | `feat: centraliza dados da empresa`    | [x]   |
-| 5   | 12/11 | Cabeçalho com navegação                                                 | `feat: adiciona cabeçalho`             | [ ]   |
+| 5   | 12/11 | Cabeçalho com navegação                                                 | `feat: adiciona cabeçalho`             | [x]   |
 | 6   | 13/11 | Menu mobile                                                             | `feat: adiciona menu mobile`           | [ ]   |
 | 7   | 16/11 | Rodapé e layout global                                                  | `feat: adiciona rodapé e layout`       | [ ]   |
 | 8   | 17/11 | Componentes Button, Container e Section                                 | `feat: cria componentes de layout`     | [ ]   |
