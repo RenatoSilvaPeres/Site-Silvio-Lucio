@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { navegacao, siteConfig } from "@/config/site";
+import { MenuMobile } from "./MenuMobile";
 import { NavLink } from "./NavLink";
 
 export function Header() {
@@ -36,6 +37,8 @@ export function Header() {
         >
           Simular economia
         </Link>
+
+        <MenuMobile />
       </div>
     </header>
   );
