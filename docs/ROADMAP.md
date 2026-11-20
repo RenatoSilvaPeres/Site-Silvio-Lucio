@@ -17,8 +17,8 @@ São 41 etapas, não 44, porque 20/11, 25/12 e 01/01 são feriados nacionais.
 | 5   | 12/11 | Cabeçalho com navegação                                                 | `feat: adiciona cabeçalho`             | [x]   |
 | 6   | 13/11 | Menu mobile                                                             | `feat: adiciona menu mobile`           | [x]   |
 | 7   | 16/11 | Rodapé e layout global                                                  | `feat: adiciona rodapé e layout`       | [x]   |
-| 8   | 17/11 | Componentes Button, Container e Section                                 | `feat: cria componentes de layout`     | [ ]   |
-| 9   | 18/11 | Componentes Card, Input, Textarea e Label                               | `feat: cria componentes de formulário` | [ ]   |
+| 8   | 17/11 | Componentes Button, Container e Section                                 | `feat: cria componentes de layout`     | [x]   |
+| 9   | 18/11 | Componentes Card, Input, Textarea e Label                               | `feat: cria componentes de formulário` | [x]   |
 | 10  | 19/11 | Página 404                                                              | `feat: adiciona página 404`            | [ ]   |
 
 ### Início e Sobre
