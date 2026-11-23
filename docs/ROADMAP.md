@@ -8,24 +8,24 @@ São 41 etapas, não 44, porque 20/11, 25/12 e 01/01 são feriados nacionais.
 
 ### Base
 
-| #   | Data  | Etapa                                                                   | Commit sugerido                        | Feito |
-| --- | ----- | ----------------------------------------------------------------------- | -------------------------------------- | ----- |
-| 1   | 05/11 | Next.js + TS, página mínima, `.gitignore`, README, `CLAUDE.md`, ROADMAP | `chore: configura projeto Next.js`     | [x]   |
-| 2   | 09/11 | ESLint, Prettier e scripts                                              | `chore: adiciona lint e formatação`    | [x]   |
-| 3   | 10/11 | Tailwind, cores e tipografia                                            | `style: define identidade visual base` | [x]   |
-| 4   | 11/11 | `site.ts` com dados de exemplo e metadata base                          | `feat: centraliza dados da empresa`    | [x]   |
-| 5   | 12/11 | Cabeçalho com navegação                                                 | `feat: adiciona cabeçalho`             | [x]   |
-| 6   | 13/11 | Menu mobile                                                             | `feat: adiciona menu mobile`           | [x]   |
-| 7   | 16/11 | Rodapé e layout global                                                  | `feat: adiciona rodapé e layout`       | [x]   |
-| 8   | 17/11 | Componentes Button, Container e Section                                 | `feat: cria componentes de layout`     | [x]   |
-| 9   | 18/11 | Componentes Card, Input, Textarea e Label                               | `feat: cria componentes de formulário` | [x]   |
-| 10  | 19/11 | Página 404                                                              | `feat: adiciona página 404`            | [ ]   |
+| #   | Data  | Etapa                                                       | Commit sugerido                        | Feito |
+| --- | ----- | ----------------------------------------------------------- | -------------------------------------- | ----- |
+| 1   | 05/11 | Next.js + TS, página mínima, `.gitignore`, README e ROADMAP | `chore: configura projeto Next.js`     | [x]   |
+| 2   | 09/11 | ESLint, Prettier e scripts                                  | `chore: adiciona lint e formatação`    | [x]   |
+| 3   | 10/11 | Tailwind, cores e tipografia                                | `style: define identidade visual base` | [x]   |
+| 4   | 11/11 | `site.ts` com dados de exemplo e metadata base              | `feat: centraliza dados da empresa`    | [x]   |
+| 5   | 12/11 | Cabeçalho com navegação                                     | `feat: adiciona cabeçalho`             | [x]   |
+| 6   | 13/11 | Menu mobile                                                 | `feat: adiciona menu mobile`           | [x]   |
+| 7   | 16/11 | Rodapé e layout global                                      | `feat: adiciona rodapé e layout`       | [x]   |
+| 8   | 17/11 | Componentes Button, Container e Section                     | `feat: cria componentes de layout`     | [x]   |
+| 9   | 18/11 | Componentes Card, Input, Textarea e Label                   | `feat: cria componentes de formulário` | [x]   |
+| 10  | 19/11 | Página 404                                                  | `feat: adiciona página 404`            | [x]   |
 
 ### Início e Sobre
 
 | #   | Data  | Etapa                            | Commit sugerido                      | Feito |
 | --- | ----- | -------------------------------- | ------------------------------------ | ----- |
-| 11  | 23/11 | Início: destaque principal       | `feat(home): adiciona hero`          | [ ]   |
+| 11  | 23/11 | Início: destaque principal       | `feat(home): adiciona hero`          | [x]   |
 | 12  | 24/11 | Início: benefícios               | `feat(home): adiciona benefícios`    | [ ]   |
 | 13  | 25/11 | Início: como funciona            | `feat(home): adiciona como funciona` | [ ]   |
 | 14  | 26/11 | Início: chamada para o simulador | `feat(home): adiciona chamada final` | [ ]   |
